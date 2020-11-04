@@ -31,7 +31,9 @@ class RandomNumberActivity : AppCompatActivity() {
         }
         if (number % 5 == 0) {
             result.text = "Yes"
-
+        }
+        else{
+            result.text = "No"
         }
     }
-}
+    }
